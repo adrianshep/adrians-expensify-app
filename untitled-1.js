@@ -20,3 +20,6 @@ const expenses = [{
   amount: 4500,
   createdAt: moment(0).subtract(4, 'days').valueOf()
 }];
+
+const total = getExpensesTotal(expenses); // look into map and reduce
+console.log(total); // 114195
