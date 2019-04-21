@@ -23,3 +23,9 @@ const expenses = [{
 
 const total = getExpensesTotal(expenses); // look into map and reduce
 console.log(total); // 114195
+
+// Test to create
+// -----
+//should return 0 if no expenses
+//should correctly add up a single expense
+//should correctly add up multiple expenses
